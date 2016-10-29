@@ -11,6 +11,7 @@ import eu.kanade.tachiyomi.data.source.online.german.WieManga
 import eu.kanade.tachiyomi.data.source.online.russian.Mangachan
 import eu.kanade.tachiyomi.data.source.online.russian.Mintmanga
 import eu.kanade.tachiyomi.data.source.online.russian.Readmanga
+import eu.kanade.tachiyomi.data.source.online.vietnamese.Blogtruyen
 import eu.kanade.tachiyomi.util.hasPermission
 import org.yaml.snakeyaml.Yaml
 import timber.log.Timber
@@ -36,7 +37,7 @@ open class SourceManager(private val context: Context) {
             Mangachan(7),
             Readmangatoday(8),
             Mangasee(9),
-            WieManga(10)
+            WieManga(10),
             Blogtruyen(11)
     )
 
