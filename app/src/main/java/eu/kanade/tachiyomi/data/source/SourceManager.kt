@@ -37,6 +37,7 @@ open class SourceManager(private val context: Context) {
             Readmangatoday(8),
             Mangasee(9),
             WieManga(10)
+            Blogtruyen(11)
     )
 
     private fun createSources(): Map<Int, Source> = hashMapOf<Int, Source>().apply {
